@@ -1,8 +1,23 @@
+:root {
+    --primaryColor: #ec4899;
+    --secondaryColor: #ede9fe;
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --focusColor: rgb(230, 85, 193);
+    --mainSpacing: 0.1rem;
+    --mainTransition: all 0.3s linear;
+    --mainRed: #ee0a0a;
+    --bodyColor: #FDF2F8;
+  }
+
+
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
-    background-color: #ccc;
+    background-color: #FDF2F8;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
