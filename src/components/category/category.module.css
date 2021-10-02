@@ -1,26 +1,19 @@
 .categoryInput {
-  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primaryColor);
+  margin-right: 5px;
+  transition: all ease-in-out 0.3s;
   outline: none;
-  padding: 20px;
-  border-radius: 20px;
-  /* border: 1px solid #676767; */
-  transition: all 0.3s ease;
-  position: relative;
-  margin: 0 10px;
 }
-
 .categoryInput:focus {
-  /* border: 4px solid #676767; */
+  box-shadow: 0 0 5px var(--focusColor);
 }
 .buttons {
-  position: absolute;
-  border: none;
-  outline: none;
-  width: 40px;
-  height: 55px;
-  border-radius: 0 20px 20px 0;
-  transform: translate(-40px, 0);
-  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  border: 2px solid var(--mainWhite);
+  color: var(--mainWhite);
   cursor: pointer;
-  /* border:0 1px 1px 0 ; */
 }
