@@ -1,15 +1,77 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-  }
-  form{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* justify-content: space-around; */
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  width: 50%;
+  margin: 50px auto;
+  padding: 100px;
+  height: 100%;
+  line-height: 100%;
+}
+
+.productConclution,
+.formContainer {
+  padding: 40px;
+  border-radius: 6px;
+  border: 3px solid var(--primaryColor);
+}
+.mainForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.formContainer {
+  background-color: #fff;
+  display: flex;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  justify-content: space-evenly;
+}
+.productConclution {
+  overflow: auto;
+  height: 200px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+  background-color: #fff;
+}
+.productRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.productConclutionTitle,
+.productConclutionCategory {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.productConclutionHeader {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+.productConclutionTitle,
+.productConclutionCategory {
+  border-bottom: 2px solid var(--primaryColor);
+  padding-bottom: 10px;
+}
+.dec {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--mainBlack);
+  border-radius: 5px;
+  padding: 5px;
+}
+.remove {
+  color: var(--mainRed);
+  border: 1px solid var(--mainRed);
+}
