@@ -1,37 +1,29 @@
-
+.productSelected {
+  margin-bottom: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primaryColor);
+  transition: all ease-in-out 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+.productSelected:focus,
+.productInput:focus {
+  box-shadow: 0 0 5px var(--focusColor);
+}
 .productInput {
-    border: none;
-    outline: none;
-    /* padding: 20px; */
-    /* border-radius: 10px; */
-    /* border: 1px solid #676767; */
-    /* transition: all 0.3s ease; */
-    position: relative;
-    background-color: transparent;
-    margin: 0 30px;
-    box-shadow: 0 0 50px #ccc;
-  }
-  
-  .categoryInput:focus {
-    /* border: 4px solid #676767; */
-  }
-  .buttons {
-    position: absolute;
-    border: none;
-    outline: none;
-    width: 40px;
-    height: 56px;
-    border-radius: 0 10px 10px 0;
-    transform: translate(-60px, 0);
-    background-color: blue;
-    cursor: pointer;
-    /* border:0 1px 1px 0 ; */
-  }
-  .productSelected{
-      border:none;
-      outline: none;
-      padding: 20px;
-      border-radius: 20px;
-
-
-  }
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primaryColor);
+  margin-right: 5px;
+  transition: all ease 0.3s;
+  outline: none;
+}
+.buttons {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  border: 2px solid var(--mainWhite);
+  color: var(--mainWhite);
+  cursor: pointer;
+}
