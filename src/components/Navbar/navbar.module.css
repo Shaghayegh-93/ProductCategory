@@ -1,18 +1,22 @@
-.navbar{
-    width: 100%;
-    /* max-width: 1300px; */
+.navbar {
+  width: 100%;
+  box-shadow: rgba(230, 205, 226, 0.7) 0px 7px 29px 0px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--mainWhite);
+}
+.navbarLogo {
+  font-weight: bold;
+  color: var(--primaryColor);
+}
 
-}
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20PX ;
-    /* background-color: #fc456a; */
-    background-color: #fff;
-}
-.navbarLogo{
-    font-weight: bold;
-    /* font-size: 60px; */
-    color: #fc456a;
+.totalItems {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
 }
