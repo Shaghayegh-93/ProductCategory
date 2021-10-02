@@ -1,11 +1,13 @@
-
+import styles from "./navbar.module.css";
 const Navbar = (props) => {
-    return (
-        <header>
-            <h2>hyper market </h2>
-            <span>{props.totalItems}</span>
-        </header>
-      );
-}
- 
+  return (
+    <nav className={styles.navbar}>
+      <div className={styles.container}>
+        <h1 className={styles.navbarLogo}>HyperMarket </h1>
+        <p className={styles.totalItems}>{props.totalItems}</p>
+      </div>
+    </nav>
+  );
+};
+
 export default Navbar;
