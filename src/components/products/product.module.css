@@ -27,3 +27,14 @@
   color: var(--mainWhite);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .productInput,.productSelected{
+    padding: 5px;
+  }
+  .buttons{
+    padding: 3px;
+  }
+
+}
+

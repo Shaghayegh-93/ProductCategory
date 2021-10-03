@@ -17,3 +17,13 @@
   color: var(--mainWhite);
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  .categoryInput{
+    padding: 5px;
+    margin-top: 30px;
+  }
+  .buttons{
+    padding: 3px;
+  }
+
+}
